@@ -1,10 +1,15 @@
 require './currency.rb'
 
+class CurrencyConverter
 
+  def initialize()
 
+  end
 
+  def convert(object)
 
-
+  end
+end
 # Should be initialized with a Hash of currency codes to conversion rates (see link to rates below)
 # At first, just make this work with two currency codes and conversation rates, with one rate being 1.0 and the other being the conversation rate. An example would be this: {USD: 1.0, EUR: 0.74}, which implies that a dollar is worth 0.74 euros.
 # Should be able to take a Currency object and a requested currency code that is the same currency code as the Currency object's and return a Currency object equal to the one passed in. That is, currency_converter.convert(Currency.new(1, :USD), :USD) == Currency.new(1, :USD)
